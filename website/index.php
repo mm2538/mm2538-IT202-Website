@@ -1,4 +1,5 @@
 <?php
+/*Michael Makowski, 2/28/24, IT202:006, Phase 1 Assignment, mm2538@njit.edu*/
 session_start();
 ?>
 <!DOCTYPE html>
