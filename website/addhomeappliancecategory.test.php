@@ -1,4 +1,5 @@
 <?php
+/*Michael Makowski, 3/15/24, IT202:006, Phase 2 Assignment, mm2538@njit.edu*/
 include("homeappliancecategory.php");
 $HomeApplianceCategoryID = $_POST['HomeApplianceCategoryID'];
 if ((trim($HomeApplianceCategoryID) == '') or (!is_numeric($HomeApplianceCategoryID))) {

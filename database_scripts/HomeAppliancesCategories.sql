@@ -1,3 +1,4 @@
+/*Michael Makowski, 3/15/24, IT202:006, Phase 2 Assignment, mm2538@njit.edu*/
 CREATE TABLE HomeApplianceCategories (
 HomeApplianceCategoryID       INT(11)        NOT NULL,
 HomeApplianceCategoryCode     VARCHAR(255)   NOT NULL   UNIQUE,
