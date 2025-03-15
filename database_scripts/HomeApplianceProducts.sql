@@ -1,4 +1,4 @@
-/*Michael Makowski, 3/15/24, IT202:006, Phase 2 Assignment, mm2538@njit.edu*/
+/*Michael Makowski, 3/15/24, IT202:006, phase 2 Assignment, mm2538@njit.edu*/
 -- phpMyAdmin SQL Dump
 -- version 4.2.7.1
 -- http://www.phpmyadmin.net
