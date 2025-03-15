@@ -1,0 +1,32 @@
+POST http://localhost:3000/addhomeapplianceproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceProductID=1050
+&HomeApplianceProductCode=CAFE
+&HomeApplianceProductName=Cafe Configurable French Door Smart Refrigerator
+&HomeApplianceDescription=Choose a finish and customizable hardware to complement any style. LED lighting spotlights foods inside the refrigerator and freezer.
+&OnSale=Yes
+&HomeApplianceCategoryID=100
+&HomeApplianceWholesalePrice=3509.00
+&HomeApplianceListPrice=4309.00
+&DateCreated=2025-03-15 05:01:21
+###
+GET http://localhost:3000/listhomeapplianceproduct.test.php
+###
+POST http://localhost:3000/changehomeapplianceproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceProductID=2030
+&HomeApplianceProductCode=MAYTAG
+&HomeApplianceProductName=Maytag Top load Washer
+&HomeApplianceDescription=4.5 cu. ft. Top Load Washer. Comes in White.
+&OnSale=No
+&HomeApplianceCategoryID=200
+&HomeApplianceWholesalePrice=799.00
+&HomeApplianceListPrice=899.00
+&DateCreated=2025-03-15 04:46:42
+###
+POST http://localhost:3000/removehomeapplianceproduct.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceProductID=1030

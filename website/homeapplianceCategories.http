@@ -1,0 +1,24 @@
+POST http://localhost:3000/addhomeappliancecategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceCategoryID=112
+&HomeApplianceCategoryCode=LGF
+&HomeApplianceCategoryName=LG Refridgerator
+&AisleNumber=3
+&DateCreated=2025-03-15 03:50:27
+###
+GET http://localhost:3000/listhomeappliancecategories.test.php
+###
+POST http://localhost:3000/changehomeappliancecategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceCategoryID=112
+&HomeApplianceCategoryCode=LGDF
+&HomeApplianceCategoryName=LG Dark Refridgerator 
+&AisleNumber=6
+&DateCreated=2025-03-15 3:04:40
+###
+POST http://localhost:3000/removehomeappliancecategory.test.php
+Content-Type: application/x-www-form-urlencoded
+
+HomeApplianceCategoryID=112
